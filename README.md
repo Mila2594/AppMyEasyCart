@@ -38,7 +38,7 @@ La aplicación ofrece funcionalidades esenciales para gestionar productos en un 
 
 1. Clona este repositorio:
    ```bash
-   git clone <URL_DEL_REPOSITORIO>
+   git clone https://github.com/Mila2594/AppMyEasyCart.git
 2. Abre el proyecto en Visual Studio.
 3. Configura el emulador Android o conecta un dispositivo físico.
 4. Compila y ejecuta la aplicación.
