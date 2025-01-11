@@ -51,6 +51,7 @@ Aquí se muestra el ciclo de la app:
 3. Detalle de un producto
 5. Gestión del carrito
 <br><br>
+
 <img src="https://github.com/user-attachments/assets/56dac3ad-0e15-4c8e-b476-ebdd5ab12e76" alt="Captura de pantalla 2025-01-11 194533" width="1200"/>
 
 ## 🛠️ Tecnologías Utilizadas
