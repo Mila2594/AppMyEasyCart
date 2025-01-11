@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="AppEasyCart.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:AppEasyCart"
+    xmlns:local1="clr-namespace:AppEasyCart.Pages"
+    Title="AppEasyCart"
+    Shell.BackgroundColor="AliceBlue"
+    Shell.FlyoutBehavior="Flyout"
+    Shell.TabBarIsVisible="True">
+
+    <Shell.FlyoutHeader>
+        <VerticalStackLayout
+            Padding="15"
+            BackgroundColor="AliceBlue"
+            VerticalOptions="CenterAndExpand">
+            <Image
+                HeightRequest="120"
+                Source="logo_app.png"
+                WidthRequest="120" />
+            <Label
+                Padding="0,10,0,0"
+                FontAttributes="Bold"
+                FontSize="28"
+                HorizontalTextAlignment="Center"
+                Text="Easy Cart" />
+        </VerticalStackLayout>
+    </Shell.FlyoutHeader>
+
+    <FlyoutItem Title="dashboard" FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent
+            Title="Home"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Icon="home.png"
+            Route="MainPage" />
+        <ShellContent
+            Title="Articulos"
+            ContentTemplate="{DataTemplate local1:ProductsPage}"
+            Icon="shopping_bag.png"
+            Route="ProductsPage" />
+        <ShellContent
+            Title="Cesta"
+            ContentTemplate="{DataTemplate local1:CartPage}"
+            Icon="shopping_cart.png"
+            Route="CartPage" />
+        <ShellContent
+            Title="Lista Deseos"
+            ContentTemplate="{DataTemplate local1:WishListPage}"
+            Icon="favorite.png"
+            Route="WishListPage" />
+    </FlyoutItem>
+
+    <ShellContent ContentTemplate="{DataTemplate local1:DetailProductPage}" Route="DetailProductPage" />
+
+    <Shell.ToolbarItems>
+        <ToolbarItem
+            IconImageSource="shopping_cart.png"
+            Order="Primary"
+            Priority="1"
+            Clicked="OnCartButtonClicked"/>
+    </Shell.ToolbarItems>
+
+    
+
+
+</Shell>

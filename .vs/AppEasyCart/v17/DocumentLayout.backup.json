@@ -1,0 +1,205 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\milac\\Desktop\\MyEasyCartApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C3F46C-F3C3-4D5B-BE7D-91BBD7058476}|AppEasyCart.csproj|c:\\users\\milac\\desktop\\myeasycartapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F4C3F46C-F3C3-4D5B-BE7D-91BBD7058476}|AppEasyCart.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C3F46C-F3C3-4D5B-BE7D-91BBD7058476}|AppEasyCart.csproj|c:\\users\\milac\\desktop\\myeasycartapp\\pages\\productspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4C3F46C-F3C3-4D5B-BE7D-91BBD7058476}|AppEasyCart.csproj|solutionrelative:pages\\productspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C3F46C-F3C3-4D5B-BE7D-91BBD7058476}|AppEasyCart.csproj|c:\\users\\milac\\desktop\\myeasycartapp\\pages\\detailproductpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4C3F46C-F3C3-4D5B-BE7D-91BBD7058476}|AppEasyCart.csproj|solutionrelative:pages\\detailproductpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C3F46C-F3C3-4D5B-BE7D-91BBD7058476}|AppEasyCart.csproj|c:\\users\\milac\\desktop\\myeasycartapp\\viewmodels\\productlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4C3F46C-F3C3-4D5B-BE7D-91BBD7058476}|AppEasyCart.csproj|solutionrelative:viewmodels\\productlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C3F46C-F3C3-4D5B-BE7D-91BBD7058476}|AppEasyCart.csproj|c:\\users\\milac\\desktop\\myeasycartapp\\pages\\cartpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4C3F46C-F3C3-4D5B-BE7D-91BBD7058476}|AppEasyCart.csproj|solutionrelative:pages\\cartpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C3F46C-F3C3-4D5B-BE7D-91BBD7058476}|AppEasyCart.csproj|c:\\users\\milac\\desktop\\myeasycartapp\\pages\\wishlistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F4C3F46C-F3C3-4D5B-BE7D-91BBD7058476}|AppEasyCart.csproj|solutionrelative:pages\\wishlistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C3F46C-F3C3-4D5B-BE7D-91BBD7058476}|AppEasyCart.csproj|c:\\users\\milac\\desktop\\myeasycartapp\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4C3F46C-F3C3-4D5B-BE7D-91BBD7058476}|AppEasyCart.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C3F46C-F3C3-4D5B-BE7D-91BBD7058476}|AppEasyCart.csproj|c:\\users\\milac\\desktop\\myeasycartapp\\appeasycart.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F4C3F46C-F3C3-4D5B-BE7D-91BBD7058476}|AppEasyCart.csproj|solutionrelative:appeasycart.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C3F46C-F3C3-4D5B-BE7D-91BBD7058476}|AppEasyCart.csproj|c:\\users\\milac\\desktop\\myeasycartapp\\pages\\wishlistpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4C3F46C-F3C3-4D5B-BE7D-91BBD7058476}|AppEasyCart.csproj|solutionrelative:pages\\wishlistpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C3F46C-F3C3-4D5B-BE7D-91BBD7058476}|AppEasyCart.csproj|c:\\users\\milac\\desktop\\myeasycartapp\\models\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4C3F46C-F3C3-4D5B-BE7D-91BBD7058476}|AppEasyCart.csproj|solutionrelative:models\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C3F46C-F3C3-4D5B-BE7D-91BBD7058476}|AppEasyCart.csproj|c:\\users\\milac\\desktop\\myeasycartapp\\models\\wishlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4C3F46C-F3C3-4D5B-BE7D-91BBD7058476}|AppEasyCart.csproj|solutionrelative:models\\wishlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\milac\\Desktop\\MyEasyCartApp\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "C:\\Users\\milac\\Desktop\\MyEasyCartApp\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-11T11:39:34.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\milac\\Desktop\\MyEasyCartApp\\Pages\\ProductsPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\ProductsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\milac\\Desktop\\MyEasyCartApp\\Pages\\ProductsPage.xaml.cs",
+              "RelativeToolTip": "Pages\\ProductsPage.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:50:56.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CartPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\milac\\Desktop\\MyEasyCartApp\\Pages\\CartPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\CartPage.xaml.cs",
+              "ToolTip": "C:\\Users\\milac\\Desktop\\MyEasyCartApp\\Pages\\CartPage.xaml.cs",
+              "RelativeToolTip": "Pages\\CartPage.xaml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAADwv4cAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T11:10:44.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DetailProductPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\milac\\Desktop\\MyEasyCartApp\\Pages\\DetailProductPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\DetailProductPage.xaml.cs",
+              "ToolTip": "C:\\Users\\milac\\Desktop\\MyEasyCartApp\\Pages\\DetailProductPage.xaml.cs",
+              "RelativeToolTip": "Pages\\DetailProductPage.xaml.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:34:54.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WishListPage.xaml",
+              "DocumentMoniker": "C:\\Users\\milac\\Desktop\\MyEasyCartApp\\Pages\\WishListPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\WishListPage.xaml",
+              "ToolTip": "C:\\Users\\milac\\Desktop\\MyEasyCartApp\\Pages\\WishListPage.xaml",
+              "RelativeToolTip": "Pages\\WishListPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-11T09:12:45.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductListViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\milac\\Desktop\\MyEasyCartApp\\ViewModels\\ProductListViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ProductListViewModel.cs",
+              "ToolTip": "C:\\Users\\milac\\Desktop\\MyEasyCartApp\\ViewModels\\ProductListViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ProductListViewModel.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:51:19.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\milac\\Desktop\\MyEasyCartApp\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\milac\\Desktop\\MyEasyCartApp\\AppShell.xaml.cs",
+              "RelativeToolTip": "AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T11:41:41.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppEasyCart.csproj",
+              "DocumentMoniker": "C:\\Users\\milac\\Desktop\\MyEasyCartApp\\AppEasyCart.csproj",
+              "RelativeDocumentMoniker": "AppEasyCart.csproj",
+              "ToolTip": "C:\\Users\\milac\\Desktop\\MyEasyCartApp\\AppEasyCart.csproj",
+              "RelativeToolTip": "AppEasyCart.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-13T17:25:31.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WishListPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\milac\\Desktop\\MyEasyCartApp\\Pages\\WishListPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\WishListPage.xaml.cs",
+              "ToolTip": "C:\\Users\\milac\\Desktop\\MyEasyCartApp\\Pages\\WishListPage.xaml.cs",
+              "RelativeToolTip": "Pages\\WishListPage.xaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCIAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T09:12:43.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "C:\\Users\\milac\\Desktop\\MyEasyCartApp\\Models\\CartService.cs",
+              "RelativeDocumentMoniker": "Models\\CartService.cs",
+              "ToolTip": "C:\\Users\\milac\\Desktop\\MyEasyCartApp\\Models\\CartService.cs",
+              "RelativeToolTip": "Models\\CartService.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAgwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T11:10:29.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WishlistService.cs",
+              "DocumentMoniker": "C:\\Users\\milac\\Desktop\\MyEasyCartApp\\Models\\WishlistService.cs",
+              "RelativeDocumentMoniker": "Models\\WishlistService.cs",
+              "ToolTip": "C:\\Users\\milac\\Desktop\\MyEasyCartApp\\Models\\WishlistService.cs",
+              "RelativeToolTip": "Models\\WishlistService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T09:00:54.211Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

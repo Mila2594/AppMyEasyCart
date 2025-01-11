@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AppEasyCart.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Home">
+
+    <VerticalStackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="Center">
+        <Image
+            HeightRequest="220"
+            Source="logo_app.png"
+            WidthRequest="220" />
+        <Label
+            Margin="0,20"
+            FontAttributes="Bold"
+            FontSize="45"
+            HorizontalTextAlignment="Center"
+            Text="Easy Cart" />
+        <Button Clicked="OnIniciarSesionClicked" Text="Iniciar sesión" />
+        <HorizontalStackLayout Padding="0,4" HorizontalOptions="CenterAndExpand">
+            <Label FontSize="11" Text="No tengo cuenta. " />
+            <Label
+                FontSize="11"
+                Text="Crear una cuenta"
+                TextColor="{StaticResource Red300}"
+                TextDecorations="Underline">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnCrearCuentaTapped" />
+                </Label.GestureRecognizers>
+            </Label>
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>

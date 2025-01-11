@@ -1,0 +1,42 @@
+using AppEasyCart.Models;
+using AppEasyCart.ViewModels;
+
+
+
+namespace AppEasyCart.Pages
+{
+    [QueryProperty(nameof(ProductId), "productId")]
+    public partial class DetailProductPage : ContentPage
+    {
+        public int ProductId { get; set; }
+
+        public DetailProductPage()
+        {
+            InitializeComponent();
+        }
+
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+
+            // Usar la propiedad ProductId para obtener el producto
+            var selectedProduct = GetProductById(ProductId);
+
+            if (selectedProduct != null)
+            {
+                //pasar producto al ViewModel
+                BindingContext = new DetalleProductoViewModel(selectedProduct);
+                Title = selectedProduct.Nombre;
+            }
+
+        }
+
+        //metodo para obtener el producto por su id
+        private Product GetProductById(int productId)
+        {
+            //consultar lista de productos
+            return AppData.Instance.ListProductsBD.FirstOrDefault(p => p.Id == productId);
+        }
+    }
+
+}

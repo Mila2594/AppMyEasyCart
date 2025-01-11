@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AppEasyCart.Pages.DetailProductPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:AppEasyCart.Models"
+    Title="DetailProductPage"
+    Shell.BackButtonBehavior="{StaticResource BackButton}">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <!--  Registrar el convertidor  -->
+            <local:BooleanToCorazonConverter x:Key="BooleanToCorazonConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+
+    <Grid
+        Padding="10"
+        RowDefinitions="Auto,*"
+        VerticalOptions="FillAndExpand">
+        <Grid
+            Grid.Row="0"
+            Margin="0,0,0,10"
+            ColumnDefinitions="*,*">
+            <Button
+                Grid.Column="0"
+                Margin="5"
+                Command="{Binding MostrarDatosCommand}"
+                Text="Datos">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Style.Triggers>
+                            <DataTrigger
+                                Binding="{Binding IsDatosVisible}"
+                                TargetType="Button"
+                                Value="True">
+                                <Setter Property="BackgroundColor" Value="{StaticResource Red300}" />
+                                <Setter Property="TextColor" Value="White" />
+                            </DataTrigger>
+                            <DataTrigger
+                                Binding="{Binding IsDatosVisible}"
+                                TargetType="Button"
+                                Value="False">
+                                <Setter Property="BackgroundColor" Value="{StaticResource Yellow600}" />
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+            </Button>
+            <Button
+                Grid.Column="1"
+                Margin="5"
+                Command="{Binding MostrarOpinionesCommand}"
+                Text="Opiniones">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Style.Triggers>
+                            <DataTrigger
+                                Binding="{Binding IsOpinionesVisible}"
+                                TargetType="Button"
+                                Value="True">
+                                <Setter Property="BackgroundColor" Value="{StaticResource Red300}" />
+                                <Setter Property="TextColor" Value="White" />
+                            </DataTrigger>
+                            <DataTrigger
+                                Binding="{Binding IsOpinionesVisible}"
+                                TargetType="Button"
+                                Value="False">
+                                <Setter Property="BackgroundColor" Value="{StaticResource Yellow600}" />
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+            </Button>
+        </Grid>
+        <Grid
+            x:Name="DatosLayout"
+            Grid.Row="1"
+            IsVisible="{Binding IsDatosVisible}"
+            RowDefinitions="Auto,Auto,*,Auto">
+            <Image
+                Grid.Row="0"
+                Margin="10"
+                Aspect="AspectFit"
+                HeightRequest="250"
+                HorizontalOptions="Center"
+                Source="{Binding Productovisualizado.Foto}" />
+            <Grid
+                Grid.Row="1"
+                Margin="0,10,0,0"
+                Padding="15,0"
+                ColumnDefinitions="*,*"
+                VerticalOptions="Center">
+                <Label
+                    x:Name="Precio"
+                    Grid.Column="0"
+                    FontAttributes="Bold"
+                    FontSize="26"
+                    HorizontalOptions="Start"
+                    Text="{Binding Productovisualizado.Precio, StringFormat='{0:F2}€'}"
+                    TextColor="{StaticResource Red300}"
+                    VerticalOptions="Center" />
+                <Label
+                    x:Name="CalificacionPromedio"
+                    Grid.Column="1"
+                    FontAttributes="Bold"
+                    FontSize="28"
+                    HorizontalOptions="End"
+                    Text="{Binding CalificacionPromedio}"
+                    TextColor="{StaticResource Yellow600}"
+                    VerticalOptions="Center" />
+            </Grid>
+            <ScrollView
+                Grid.Row="2"
+                Margin="0,10"
+                VerticalOptions="CenterAndExpand">
+                <Label
+                    x:Name="Descripcion"
+                    Padding="15,0,15,15"
+                    FontSize="20"
+                    LineBreakMode="WordWrap"
+                    Text="{Binding Productovisualizado.Description}" />
+            </ScrollView>
+            <Grid
+                Grid.Row="3"
+                Margin="0,20"
+                ColumnDefinitions="*,*">
+                <ImageButton
+                    Grid.Column="0"
+                    Clicked="OnAddToWishClicked"
+                    HeightRequest="40"
+                    Source="{Binding IsFavorite, Converter={StaticResource BooleanToCorazonConverter}}"
+                    WidthRequest="40" />
+                <Button
+                    Grid.Column="1"
+                    Margin="10,0,0,0"
+                    BackgroundColor="{StaticResource Red300}"
+                    Clicked="OnAddToCartClicked"
+                    Text="Agregar a la cesta"
+                    TextColor="White" />
+            </Grid>
+        </Grid>
+
+        <ScrollView
+            x:Name="OpinionesLayout"
+            Grid.Row="1"
+            IsVisible="{Binding IsOpinionesVisible}">
+            <CollectionView ItemsSource="{Binding Opiniones}">
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout Orientation="Vertical" />
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame
+                            Margin="5"
+                            Padding="6"
+                            BackgroundColor="White"
+                            CornerRadius="8"
+                            HasShadow="True">
+                            <Grid RowDefinitions="Auto,Auto,*">
+                                <Grid Padding="8,0" ColumnDefinitions="*,Auto">
+                                    <Label
+                                        x:Name="fecha"
+                                        Grid.Row="0"
+                                        Grid.Column="0"
+                                        FontSize="14"
+                                        Text="{Binding Fecha}"
+                                        VerticalOptions="Center" />
+                                    <Label
+                                        x:Name="calificacionUsuario"
+                                        Grid.Row="0"
+                                        Grid.Column="1"
+                                        FontSize="20"
+                                        HorizontalOptions="End"
+                                        Text="{Binding Estrellas}"
+                                        TextColor="{StaticResource Yellow600}"
+                                        VerticalOptions="Center" />
+                                </Grid>
+                                <Label
+                                    x:Name="nombreUsuario"
+                                    Grid.Row="1"
+                                    Grid.ColumnSpan="2"
+                                    Margin="8,5,8,3"
+                                    FontAttributes="Bold"
+                                    FontSize="16"
+                                    Text="{Binding NombreUsuario}" />
+                                <Label
+                                    x:Name="opinion"
+                                    Grid.Row="2"
+                                    Grid.ColumnSpan="2"
+                                    Margin="8,0,8,3"
+                                    FontSize="14"
+                                    LineBreakMode="WordWrap"
+                                    Text="{Binding Comentario}" />
+                            </Grid>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </ScrollView>
+    </Grid>
+</ContentPage>
